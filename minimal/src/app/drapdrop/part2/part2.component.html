@@ -1,0 +1,56 @@
+<div style="width: 100%">
+    <canvas id="wraptest" width="500" height="150"></canvas>
+</div>
+<div class="formUpload">
+    <form [formGroup]="dataForm" (ngSubmit)="onSubmit()">
+        <textarea (keyup)="canvasWraptest($event)" placeholder="Text..." formControlName="caption" cols="30" rows="10"></textarea>
+        <input (keyup)="changeSizeText($event)" type="number" placeholder="font size">
+        <input (change)="changeColorText($event)" type="color" placeholder="Color Text">
+        <select (change)="changeFontWeightText($event)">
+            <option value="400">400</option>
+            <option value="500">500</option>
+            <option value="600">600</option>
+            <option value="700">700</option>
+        </select>
+        <div class="dropzone" id="boxupload">
+            <ng-container *ngIf="listImages.length > 0">
+                <div class="uploadIMG" *ngFor="let item of listImages">
+                    <span class="editImage" (click)="editImage(item)">Edit</span>
+                    <img  [src]="item.src" [id]='item.id' class="image" alt="{{item.id}}">
+                </div>
+            </ng-container>
+        </div>
+        <button type="submit" class="btn">UPDATE</button>
+    </form>
+</div>
+
+<div class="container-img">
+    <img [src]="imgRender" class="imageRender">
+</div>
+
+<app-dialog [visible]="showDialog">
+    <div class='modalEdit'>
+        <app-text (position)="positionHanding($event)" [(text)]="fillText.text" [(size)]="fillText.size" [(color)]="fillText.color"></app-text>
+        <canvas #myCanvas id="myCanvas"></canvas>
+        <div class="editors">
+            <div class="form-edit">
+                <label for="text">Enter Text</label>
+                <textarea id="text" #text [(ngModel)]="fillText.text"></textarea>
+            </div>
+            <div class="form-edit">
+                <label for="color">Choose Color Text</label>
+                <input type="color" #color id="color" value="#00e45e" [(ngModel)]="fillText.color">
+            </div>
+            <div class="form-edit">
+                <label for="number">Choose Size Text</label>
+                <input type="number" #size id="number" value="24" [(ngModel)]="fillText.size">
+            </div>
+            <button type="button" class="btn-edit" (click)="addText()">Save Image</button>
+        </div>
+    </div>
+</app-dialog>
+
+
+
+
+

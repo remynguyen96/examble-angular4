@@ -1,0 +1,11 @@
+<div class="mat-elevation-z9" fxFlex="60" fxFlexOffset="20" fxLayout='row' fxLayoutWrap>
+  <md-input-container fxFlex='50' fxFlexAlign='center' fxFlexOffset="25">
+    <input mdInput placeholder="Search" (keyup)='searchTerm$.next($event.target.value)'>
+  </md-input-container>
+
+  <md-list *ngIf='results' fxFlex='100'>
+    <md-list-item *ngFor='let result of results | slice:0:10'>
+        <a [href]="result.latest" target="_blank">{{result.name}}</a>
+    </md-list-item>
+  </md-list>
+</div>

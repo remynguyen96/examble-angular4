@@ -1,0 +1,10 @@
+#slider {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.slide {
+  width: 100%;
+  flex-basis: 100%;
+  position: absolute;
+}

@@ -1,0 +1,17 @@
+<md-progress-bar mode="indeterminate" *ngIf="loading | async" color="warn"></md-progress-bar>
+<div fxLayoutAlign="row" fxLayoutWrap="wrap" fxLayoutGap="15px" *ngIf="postDetail">
+        <md-card >
+            <button md-raised-button color="accent" (click)="addList(postDetail)">Add List</button>
+            <md-card-header>
+                <img src="http://localhost:2222/images/blogs/{{postDetail?.images}}"  style="width: 120px; height: 120px; border-radius: 50%" alt="{{postDetail?.title}}">
+                <p>{{postDetail?._id}}</p>
+                <p>{{postDetail?.title}}</p>
+            </md-card-header>
+            <md-card-content>
+                <div [innerHTML]="postDetail?.description"></div>
+                <img src="{{postDetail?.author.avatar}}"  alt="{{postDetail?.author.name}}" style="width: 60px; height: 60px; border-radius: 50%">
+                <p><strong>{{postDetail?.author.name}}</strong></p>
+                <p><strong>{{postDetail?.categories}}</strong></p>
+            </md-card-content>
+        </md-card>
+</div>

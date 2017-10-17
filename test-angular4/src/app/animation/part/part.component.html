@@ -1,0 +1,6 @@
+<div [ngStyle]="{'padding.rem' : '10'}">
+  <input type="text"  #itemInput (keyup.enter)="addItem(itemInput.value);itemInput.value = ''">
+  <ul *ngIf="items">
+    <li *ngFor="let item of items" [@animation] (click)="removeItem(item)">{{item}}</li>
+  </ul>
+</div>

@@ -1,0 +1,33 @@
+<nav md-tab-nav-bar>
+  <a md-tab-link
+     *ngFor="let link of navLinks"
+     [routerLink]="link.url"
+     routerLinkActive #rla="routerLinkActive"
+     [active]="rla.isActive">
+    {{link.label}}
+  </a>
+</nav>
+
+<router-outlet></router-outlet>
+<!--<div #test>-->
+<!--<div (window:resize)="onResize($event)" #test>-->
+  <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur exercitationem minus nihil officia sapiente, sint voluptate. Ab aperiam eos expedita illo quos sed vitae? In iste laborum molestiae placeat tempora?</p>-->
+  <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur exercitationem minus nihil officia sapiente, sint voluptate. Ab aperiam eos expedita illo quos sed vitae? In iste laborum molestiae placeat tempora?</p>-->
+  <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur exercitationem minus nihil officia sapiente, sint voluptate. Ab aperiam eos expedita illo quos sed vitae? In iste laborum molestiae placeat tempora?</p>-->
+  <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur exercitationem minus nihil officia sapiente, sint voluptate. Ab aperiam eos expedita illo quos sed vitae? In iste laborum molestiae placeat tempora?</p>-->
+  <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur exercitationem minus nihil officia sapiente, sint voluptate. Ab aperiam eos expedita illo quos sed vitae? In iste laborum molestiae placeat tempora?</p>-->
+  <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur exercitationem minus nihil officia sapiente, sint voluptate. Ab aperiam eos expedita illo quos sed vitae? In iste laborum molestiae placeat tempora?</p>-->
+<!--</div>-->
+
+
+<!-- </form> -->
+<!-- <div class="mat-elevation-z9" fxFlexOffset="20" fxFlex='60' fxFlexAlign='center' fxLayout='row' fxLayoutWrap fxLayoutAlign='space-around'>
+  <md-toolbar color='primary'>
+    <span>{{lead.name}}</span>
+  </md-toolbar>
+  <md-list>
+    <md-list-item>{{lead.email}}</md-list-item>
+    <md-list-item>{{lead.category}}</md-list-item>
+    <md-list-item>{{lead.description}}</md-list-item>
+  </md-list>
+</div> -->

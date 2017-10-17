@@ -1,0 +1,56 @@
+:host{
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  background: -webkit-linear-gradient(51deg, #ffb4e8 0%, #da85c0 40%, #ff5ece 70%);
+  background: -o-linear-gradient(51deg, #ffb4e8 0%, #da85c0 40%, #ff5ece 70%);
+  background: linear-gradient(141deg, #ffb4e8 0%, #da85c0 40%, #ff5ece 70%);
+}
+h1{
+  text-align: center;
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 0px;
+}
+.score{
+  background: rgba(255,255,255,0.2);
+  padding: 0 3rem;
+  line-height: 1;
+  border-radius: 1rem;
+  color: #fbfbfb;
+}
+.game{
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.hole{
+  flex: 1 0 calc(33.33% - 20px);
+  overflow: hidden;
+  position: relative;
+  margin-right: 15px;
+}
+.mole{
+  background: url('http://clipartist.net/links/clipartist.net/mole_art-1979px.png') center center no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+}
+.hole.up .mole{
+  top: 0;
+}
+.btn{
+  text-align: center;
+  display: block;
+  button{
+    padding:10px 20px;
+    color: #ffffff;
+    background: #05c685;
+    border-radius: 5px;
+  }
+}

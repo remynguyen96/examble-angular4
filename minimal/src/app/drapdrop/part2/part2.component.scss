@@ -1,0 +1,102 @@
+:host {
+ width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.formUpload {
+  width: 335px;
+  margin-right: 30px;
+}
+app-dialog {
+  margin-top: 55px;
+}
+.container-img {
+  width: 500px;
+  height: 400px;
+}
+input {
+  width: 85%;
+  padding: 5px 12px;
+}
+.dropzone {
+  width: 75%;
+  padding: 38px;
+  height: 250px;
+  background: #BEEAFF;
+  margin: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  width: 115px;
+  height: 115px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.activeDrop {
+  opacity: .5;
+  border: 5px dashed #A81022;
+  position: relative;
+  &::after {
+    content: '+ Drop Photo';
+    font-size: 40px;
+    color: #1BFF8D;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.uploadIMG {
+  position: relative;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+  padding: 5px;
+  font-size: 22px;
+  border-radius: 4px;
+  border: none;
+  background: #4EFF71;
+  color: #ffffff;
+}
+
+.editImage {
+  font-size: 14px;
+  position: absolute;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  right: 15px;
+  top: 5px;
+}
+.modalEdit {
+  display: flex;
+}
+.editors {
+  margin-left: 25px;
+}
+.form-edit {
+  margin-bottom: 15px;
+}
+.btn-edit {
+  padding: 5px 20px;
+  background: #3bce72;
+  color: #ffffff;
+  font-weight: bold;
+}
+.imageRender {
+  margin: 60px 0;
+}
+
+textarea {
+  width: 227px;
+  height: 114px;
+}

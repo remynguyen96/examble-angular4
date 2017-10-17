@@ -1,0 +1,10 @@
+<p show-delay="100" placement="bottom" tooltip="Tính năng đang được cập nhật !" >Good boy</p>
+<button (click)="showDialog = !showDialog" class="btn">Open Modal</button>
+<app-modal [visible]="showDialog">
+  <h1>Hello World !</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi at, aut beatae delectus dolore esse est impedit iste, itaque maiores modi necessitatibus quae quisquam quo quod tempore tenetur? Magnam!</p>
+  <button  class="btn btn-close" (click)="showDialog = !showDialog">Close</button>
+</app-modal>
+
+
+

@@ -1,0 +1,24 @@
+<!--<div fxLayout="column">-->
+  <!--<div class="subheader">-->
+    <!--<span style="font-weight:500">My Food List</span>-->
+  <!--</div>-->
+
+  <!--<md-list *ngIf="(foodList | async).length; else notfound">-->
+    <!--<md-list-item *ngFor="let food of foodList | async; let i = index;" [routerLink]="['/myfoods', i]">-->
+      <!--<div>-->
+        <!--<span md-line style="font-weight:500">{{food.name}}</span>-->
+        <!--<span md-line> Energy: {{food.nutrients[1].gm}} kJ-->
+    <!--</span>-->
+      <!--</div>-->
+      <!--<div style="margin-left:auto" md-ripple>-->
+        <!--<md-icon style="color: grey" (click)="removeFood(food)">delete</md-icon>-->
+      <!--</div>-->
+    <!--</md-list-item>-->
+  <!--</md-list>-->
+  <!--<ng-template #notfound>-->
+    <!--<div  fxLayout="column" fxLayoutAlign="start center">-->
+      <!--<span class="search-info">Search some food e.g. Yogurt, egg...</span>-->
+      <!--<md-icon class="search-icon">search</md-icon>-->
+    <!--</div>-->
+  <!--</ng-template>-->
+<!--</div>-->

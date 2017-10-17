@@ -1,0 +1,49 @@
+.wrapper_modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  background: #E9EBE7;
+}
+.wrapper_title {
+  font-size: 14px;
+  line-height: 14px;
+  color: #484742;
+  font-weight: 700;
+  border-bottom: 1px solid #ED5B00;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  margin-bottom: 0;
+}
+.wrapper_content {
+
+}
+.wrapper_editor {
+  padding: 12px;
+  display: flex;
+  border-top: 1px solid #ED5B00;
+}
+.input {
+  flex: 1;
+  text-align: center;
+}
+.btn {
+  display: flex;
+  button {
+    border-radius: 2px;
+    border: none;
+    padding: 2px 8px;
+    box-shadow: 0 0 0 1px #B7C9BE;
+  }
+  &-cancel {
+    color: #4A534B;
+    background: transparent;
+  }
+  &-save {
+    color: #ffffff;
+    background: #46FF85;
+    margin-left: 5px;
+  }
+
+}

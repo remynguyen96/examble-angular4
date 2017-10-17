@@ -1,0 +1,33 @@
+<div class="mat-elevation-z9" fxFlexOffset="15" fxFlex='70' fxFlexAlign='center' fxLayout='row' fxLayoutWrap fxLayoutAlign='space-around' fxLayoutGap="20px">
+  <md-table #table [dataSource]="dataSource" class="example-table" fxFlex="1 1 auto">
+    <!-- ID Column -->
+    <ng-container cdkColumnDef="ID">
+      <md-header-cell *cdkHeaderCellDef class="example-header-cell"> ID </md-header-cell>
+      <md-cell *cdkCellDef="let row" class="example-cell"> {{row.id}} </md-cell>
+    </ng-container>
+
+    <!-- Progress Column -->
+    <ng-container cdkColumnDef="Name">
+      <md-header-cell *cdkHeaderCellDef class="example-header-cell"> Name </md-header-cell>
+      <md-cell *cdkCellDef="let row" class="example-cell"> {{row.name}} </md-cell>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container cdkColumnDef="Email">
+      <md-header-cell *cdkHeaderCellDef class="example-header-cell"> Email </md-header-cell>
+      <md-cell *cdkCellDef="let row" class="example-cell"> {{row.email}} </md-cell>
+    </ng-container>
+
+    <!-- Color Column -->
+    <ng-container cdkColumnDef="Description">
+      <md-header-cell *cdkHeaderCellDef class="example-header-cell">Description</md-header-cell>
+      <md-cell *cdkCellDef="let row" class="example-cell">
+        {{row.description}}
+      </md-cell>
+    </ng-container>
+
+    <md-header-row *cdkHeaderRowDef="displayedColumns" class="example-header-row"></md-header-row>
+
+    <md-row *cdkRowDef="let row; columns: displayedColumns;" class="example-row"></md-row>
+  </md-table>
+</div>

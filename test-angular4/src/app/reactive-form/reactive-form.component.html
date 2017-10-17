@@ -1,0 +1,12 @@
+<app-part1 [formControl]="control"></app-part1>
+<button (click)="control.disable()">Disabled</button>
+<input splitterControl [formControl]="control2" class="form-control">
+
+<p>{{control | json}}</p>
+<hr>
+<hr>
+<hr>
+<p>{{control2 | json}}</p>
+
+<span #tref>I am span</span>
+<router-outlet></router-outlet>

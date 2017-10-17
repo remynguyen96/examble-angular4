@@ -1,0 +1,12 @@
+<app-lead></app-lead>
+<hr>
+
+<md-card>
+  <md-card-content *ngFor="let item of (lead | async)" (click)="remove(item)">
+    <li>{{item.id}}</li>
+    <li>{{item.businessName}}</li>
+    <li>{{item.businessCategory}}</li>
+    <li>{{item.contactName}}</li>
+    <li>{{item.email}}</li>
+  </md-card-content>
+</md-card>

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
+.blur {
+  transition: all .5s;
+  filter: blur(24px);
+}
+.noblur {
+  transition: all 3s;
+}

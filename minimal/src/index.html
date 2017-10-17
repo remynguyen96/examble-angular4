@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Minimal</title>
+    <base href="/">
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon-16x16.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Open Source Minimal PWA with Angular 4">
+    <meta name="keywords" content="Angular 4, Minimal, PWA, JavaScript">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="theme-color" content="#ef5350">
+
+    <link rel="manifest" href="/manifest.json">
+
+
+    <!--<meta name="msapplication-TileColor" content="#ffffff">-->
+    <!--<meta name="msapplication-TileImage" content="assets/icons/ms-icon-144x144.png">-->
+    <!--<link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">-->
+    <!--<link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">-->
+    <!--<link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">-->
+    <!--<link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">-->
+    <!--<link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">-->
+    <!--<link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">-->
+    <!--<link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">-->
+    <!--<link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">-->
+    <!--<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">-->
+    <!--<link rel="icon" type="image/png" sizes="192x192"  href="assets/icons/android-icon-192x192.png">-->
+    <!--<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">-->
+    <!--<link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">-->
+    <!--<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">-->
+
+</head>
+<body>
+<app-root>
+    <style>
+        app-root {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: pink;
+            text-transform: uppercase;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        body {
+            background: salmon;
+            margin: 0;
+            padding: 0;
+        }
+
+        @keyframes dots {
+            50% {
+                transform: translateY(-.4rem);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .d {
+            animation: dots 1.5s ease-out infinite;
+        }
+
+        .d-2 {
+            animation-delay: .5s;
+        }
+
+        .d-3 {
+            animation-delay: 1s;
+        }
+    </style>
+    Loading<span class="d">.</span><span class="d d-2">.</span><span class="d d-3">.</span>
+</app-root>
+
+
+<script>
+//  const applicationServerPublicKey = 'BLREzeCVF-WmRxCA25xqcuSpY0jpRwCB5VYEmfLnEPeELWvpV8K24zJn5pCYQdhaRM0FljymcnyuZ9r7yBF2xtA';
+//  // Private Key:
+//  //     3_5h06dAIfY3r4OhX0XxKi8Oh9NZxCB7q6X9qpmdb2s
+//  const pushButton = document.querySelector('.js-push-btn');
+//  let isSubscribed = false;
+//  let swRegistration = null;
+//
+//  function urlB64ToUint8Array(base64String) {
+//    const padding = '='.repeat((4 - base64String.length % 4) % 4);
+//    const base64 = (base64String + padding)
+//        .replace(/\-/g, '+')
+//        .replace(/_/g, '/');
+//
+//    const rawData = window.atob(base64);
+//    const outputArray = new Uint8Array(rawData.length);
+//
+//    for (let i = 0; i < rawData.length; ++i) {
+//      outputArray[i] = rawData.charCodeAt(i);
+//    }
+//    return outputArray;
+//  }
+//
+//  function updateBtn() {
+//    if (isSubscribed) {
+//      pushButton.textContent = 'Disable Push Messaging';
+//    } else {
+//      pushButton.textContent = 'Enable Push Messaging';
+//    }
+//    pushButton.setAttribute('disabled', 'disabled');
+//  }
+//
+//  function subscribeUser() {
+//    const applicationServerKey = urlB64ToUint8Array(applicationServerPublicKey);
+//    swRegistration.pushManager.subscribe({
+//      userVisibleOnly: true,
+//      applicationServerKey: applicationServerKey
+//    })
+//        .then(function (subscription) {
+//          console.log('User is subscribed.');
+//          isSubscribed = true;
+//          updateBtn();
+//        })
+//        .catch(function (err) {
+//          console.log('Failed to subscribe the user: ', err);
+//          updateBtn();
+//        });
+//  }
+//
+//  function unsubscribeUser() {
+//    swRegistration.pushManager.getSubscription()
+//        .then(function (subscription) {
+//          if (subscription) {
+//            return subscription.unsubscribe();
+//          }
+//        })
+//        .catch(function (error) {
+//          console.log('Error unsubscribing', error);
+//        })
+//        .then(function () {
+//          console.log('User is unsubscribed.');
+//          isSubscribed = false;
+//          updateBtn();
+//        });
+//  }
+//
+//  function initialiseUI() {
+//    pushButton.addEventListener('click', function () {
+//      pushButton.removeAttribute('disabled');
+//      if (isSubscribed) {
+//        unsubscribeUser();
+//      } else {
+//        subscribeUser();
+//      }
+//    });
+//    // Set the initial subscription value
+//    swRegistration.pushManager.getSubscription()
+//        .then(function (subscription) {
+//          isSubscribed = !(subscription === null);
+//          if (isSubscribed) {
+//            console.log('User IS subscribed.');
+//          } else {
+//            console.log('User is NOT subscribed.');
+//          }
+//          updateBtn();
+//        });
+//  }
+
+//  if ('serviceWorker' in navigator && 'PushManager' in window) {
+//    navigator.serviceWorker.register('/service-worker.js')
+//        .then((swReg) => {
+//          swRegistration = swReg;
+//          initialiseUI();
+//          console.log(swRegistration);
+//        })
+//        .catch(function (error) {
+//          console.error('Service Worker Error', error);
+//        });
+//  } else {
+//    console.warn('Push messaging is not supported');
+//  }
+</script>
+</body>
+</html>

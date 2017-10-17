@@ -1,0 +1,25 @@
+.mat-elevation-z9{
+  margin-top: 35px;
+}
+button{
+  margin-bottom: 20px;
+  margin-left: -15px;
+}
+:root{
+  --base: #0ddd79;
+  --spacing: 10px;
+  --blur: 10px;
+}
+$base: #0ddd79;
+$spacing: 10px;
+$blur: 10px;
+
+img{
+  width: 40%;
+  padding: var(--spacing);
+  filter: blur(var(--blur));
+  background: var(--base);
+}
+h3{
+  color: var(--base);
+}

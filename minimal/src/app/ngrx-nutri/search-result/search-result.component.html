@@ -1,0 +1,19 @@
+<md-progress-bar mode="indeterminate" *ngIf="loading | async" color="accent"></md-progress-bar>
+<div fxLayoutAlign="row" fxLayoutWrap="wrap" fxLayoutGap="15px">
+    <div style="margin-bottom: 35px" fxFlex="45" *ngFor="let item of (searchResult | async)">
+        <md-card >
+            <md-card-header>
+                <img (click)="moveState(item)" src="http://localhost:2222/images/blogs/{{item.images}}"  style="width: 120px; height: 120px; border-radius: 50%">
+                <p>{{item._id}}</p>
+                <p>{{item.title}}</p>
+            </md-card-header>
+            <md-card-content>
+                <div (setHTML)="item.description"></div>
+                <!--<div [innerHTML]="item.description"></div>-->
+                <img src="{{item.author.avatar}}"  style="width: 60px; height: 60px; border-radius: 50%">
+                <p><strong>{{item.author.name}}</strong></p>
+                <p><strong>{{item.categories}}</strong></p>
+            </md-card-content>
+        </md-card>
+    </div>
+</div>

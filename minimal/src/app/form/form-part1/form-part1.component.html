@@ -1,0 +1,26 @@
+<form [formGroup]="formData" novalidate>
+    <div class="form-control">
+        <label for="name">Name</label>
+        <input type="text" id="name" formControlName="name">
+        <p>
+            <app-form-error [control]="formData.controls.name"></app-form-error>
+        </p>
+        {{formData.controls.name.errors | json}}
+    </div>
+    <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" formControlName="email">
+        <p>
+            <app-form-error [control]="formData.controls.email"></app-form-error>
+        </p>
+        {{formData.controls.email.errors | json}}
+    </div>
+    <div class="form-control">
+        <label for="description">Description</label>
+        <textarea id="description" formControlName="description" cols="30" rows="10"></textarea>
+        <p>
+            <app-form-error [control]="formData.controls.description"></app-form-error>
+        </p>
+        {{formData.controls.description.errors | json}}
+    </div>
+</form>

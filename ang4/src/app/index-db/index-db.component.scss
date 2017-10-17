@@ -1,0 +1,35 @@
+.mat-elevation-z9{
+  margin-top: 50px;
+}
+.example-table {
+  overflow: auto;
+}
+
+.example-header-row, .example-row {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  height: 35px;
+  padding: 0 8px;
+}
+
+.example-header-cell {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.example-cell {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+svg{
+  width: 600px;
+  height: 120px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  background: black;
+}

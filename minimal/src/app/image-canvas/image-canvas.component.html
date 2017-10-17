@@ -1,0 +1,16 @@
+<div class="wrapper_image">
+    <img #avatar src="assets/the-good-life.jpg" alt="avatar" class="img">
+</div>
+<div class="upload">
+    <input type="file" (change)="onFileChange($event)">
+</div>
+<ng-container *ngIf="openModal">
+    <app-modal
+            [fileUpload]= "fileUpload"
+            [showModal]="openModal"
+            (dataUrl)="dataUrl($event)"
+            (typeModal)="closeModal($event)">
+    </app-modal>
+</ng-container>
+
+

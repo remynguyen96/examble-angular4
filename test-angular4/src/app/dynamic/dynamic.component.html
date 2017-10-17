@@ -1,0 +1,40 @@
+<div style="background:black; width: 100%">
+  <app-load-view [ads]="infomation"></app-load-view>
+</div>
+
+
+<button type="button" (click)="showAdmin(roleAdmin)">admin</button>
+<button type="button" (click)="showAdmin(roleMember)">member</button>
+
+<div *ifRole="roleAdmin">
+  Only for Admin
+</div>
+<div *ifRole="roleMember">
+  Only for Member
+</div>
+
+
+<ng-template [ifRole]="roleMember">
+  <p><strong>{{roleMember}}</strong> is actived !!!</p>
+</ng-template>
+
+
+<p *range="[22,23]; let youCanChooseTheVariableName">{{youCanChooseTheVariableName}}</p>
+
+<h1>Your age:</h1>
+<select>
+  <ng-container *range="[18, 28]; let num">
+    <option [value]="num">{{num}}</option>
+  </ng-container>
+</select>
+
+<h1>Year:</h1>
+<select>
+  <ng-container *range="[1996, 2017]; let num">
+    <option [value]="num">{{num}}</option>
+  </ng-container>
+</select>
+
+
+
+

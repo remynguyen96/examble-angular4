@@ -1,0 +1,10 @@
+<md-progress-bar mode="indeterminate" *ngIf="loading | async"></md-progress-bar>
+<md-list style="background: #8E01FF;">
+  <md-list-item *ngFor="let item of (userGithub | async)">
+    <h4 md-line>{{item.id}}</h4>
+    <h4 md-line>{{item.login}}</h4>
+    <h4 md-line>{{item.score}}</h4>
+    <h4 md-line>{{item.followers_url}}</h4>
+    <img src="{{item.avatar_url}}" alt="" width="120px" height="120px">
+  </md-list-item>
+</md-list>

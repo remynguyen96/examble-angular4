@@ -1,0 +1,83 @@
+:host{
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(100deg, #b636eb 0%, #aa67ff 45%, #8a71ff 75%);
+}
+.plan ul li {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 10px;
+}
+.plan ul li:last-child{
+  border-bottom: 0px;
+}
+.plan a{
+  text-decoration: none;
+  background: #a6ff00;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+}
+.plan h2{
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+}
+.price{
+  font-size: 50px;
+  margin: 10px 0px;
+}
+.pricing-grid{
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.plan{
+  background: rgba(255,255,255,.2);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+.plan > *{
+  flex: 1 1 100%;
+}
+.plan .cta{
+  align-self: flex-end;
+}
+
+
+.post{
+  max-width: 100%;
+  margin: 2rem;
+  float: left;
+  a {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: black;
+    text-shadow: 0 1px 0 #ccc,
+              0 2px 0 #c9c9c9,
+              0 3px 0 #bbb,
+              0 4px 0 #b9b9b9,
+              0 5px 0 #aaa,
+              0 6px 1px rgba(0,0,0,.1),
+              0 0 5px rgba(0,0,0,.1),
+              0 1px 3px rgba(0,0,0,.3),
+              0 3px 5px rgba(0,0,0,.2),
+              0 5px 10px rgba(0,0,0,.25),
+              0 10px 10px rgba(0,0,0,.2),
+              0 20px 20px rgba(0,0,0,.15);
+    background-image: linear-gradient(to right, rgba(255, 255, 255,.1) 50%, rgba(255, 5, 5, 0.3) 50%);
+    background-position: 0;
+    background-size: 200%;
+    transition: all .4s;
+    &:hover{
+      background-position: -100%;
+    }
+  }
+}

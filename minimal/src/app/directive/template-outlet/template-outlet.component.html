@@ -1,0 +1,21 @@
+<ng-container *ngTemplateOutlet="greet"></ng-container>
+<hr>
+<ng-container *ngTemplateOutlet="eng; context: myContext"></ng-container>
+<hr>
+<ng-container *ngTemplateOutlet="svk; context: myContext"></ng-container>
+<hr>
+
+
+<!------- Template ------>
+<ng-template #eng let-value1 let-value2="localSk">
+    <span style="background: lightblue">{{value1}} -- {{value2}}!</span>
+</ng-template>
+
+<ng-template #svk let-value="localSk">
+    <span style="background: lightcoral"> {{value}}!</span>
+</ng-template>
+
+
+<ng-template #greet>
+    <span style="background: lightgreen">Hello</span>
+</ng-template>

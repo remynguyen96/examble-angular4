@@ -1,0 +1,20 @@
+<!--<div [ngStyle]="{'margin-top.rem': '2', 'padding.rem': '2'}" [style.background]="'#8E00FF'" [style.color]="'#fff'">-->
+    <!--<button (click)="toggle()" [ngStyle]="{'background': '#3CFF5F', 'padding': '20px', 'color' : '#fff'}">Toggle</button>-->
+  <!--<div [@fade]="items.length">-->
+    <!--<div *ngFor="let item of items">{{item}}</div>-->
+  <!--</div>-->
+<!--</div>-->
+
+<nav>
+  <a routerLink="part" routerLinkActive="active">Animation Part</a>
+  <a routerLink="part1" routerLinkActive="active">Animation Part 1</a>
+  <a routerLink="home" routerLinkActive="active">Animation Home</a>
+  <a routerLink="about" routerLinkActive="active">Animation About 3</a>
+</nav>
+
+<main [ngStyle]="{'margin-top.rem' : '.5', 'padding.rem' : '.5'}">
+<main [ngStyle]="{'margin-top.rem' : '.5', 'padding.rem' : '.5'}" [@routerTransition]="getState(o)">
+  <router-outlet #o="outlet"></router-outlet>
+</main>
+
+

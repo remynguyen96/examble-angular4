@@ -1,0 +1,18 @@
+<div style="margin-bottom: 30px" fxLayoutAlign="row" fxLayoutWrap="wrap" fxLayoutGap="15px" *ngIf="(listResult | async)">
+  <md-card class="example-card" fxFlex="30"  *ngFor="let item of (listResult | async); let key = index">
+    <md-card-header>
+      <div md-card-avatar>
+        <img src="{{item.author.avatar}}" alt="{{item.author.name}}">
+      </div>
+      <md-card-title>{{item.title}}</md-card-title>
+      <md-card-subtitle>{{item._id}}</md-card-subtitle>
+    </md-card-header>
+    <img md-card-image src="http://localhost:2222/images/blogs/{{item.images}}" alt="{{item.title}}">
+    <md-card-content>
+      <p [innerHTML]="item.description"></p>
+    </md-card-content>
+    <md-card-actions>
+      <button md-raised-button color="warn" (click)="onDelete(item)">Delete</button>
+    </md-card-actions>
+  </md-card>
+</div>

@@ -1,0 +1,35 @@
+<h3>Client Online: {{clientOnline}}</h3>
+<h3>Room: {{allRoom}}</h3>
+<md-card style="background: #4E2BB5; width: 450px; margin:0 auto; margin-top: 30px;">
+    <md-card-header style="display: block">
+        <md-card-title style="text-align: center;font-size: 1.4rem">Room Chat App</md-card-title>
+    </md-card-header>
+    <form [formGroup]="formData" (ngSubmit)="sendMessage()">
+        <md-card-content fxLayout="column" fxLayoutWrap="wrap">
+            <md-input-container fxFlex="50" color="accent">
+                <input type="text" mdInput placeholder="Room" autocomplete="false" formControlName="room">
+            </md-input-container>
+            <md-input-container fxFlex="50" color="accent">
+                <input type="text" mdInput placeholder="Name" autocomplete="false" formControlName="name">
+            </md-input-container>
+            <md-input-container fxFlex="50" color="accent">
+                <input type="text" mdInput placeholder="Message" autocomplete="false" formControlName="message">
+            </md-input-container>
+            <button type="submit" md-raised-button="accent">
+                <md-icon>send</md-icon>
+                Send
+            </button>
+        </md-card-content>
+    </form>
+</md-card>
+<hr>
+
+<md-list style="background: #2DB57A">
+    <h3 md-subheader>All Message</h3>
+    <md-list-item *ngFor="let item of allMessage">
+        <md-icon md-list-icon>note</md-icon>
+        <h4 md-line>Name: {{item.name}}</h4>
+        <p md-line>Message: {{item.message}}</p>
+        <p md-line>Room: {{item.room}}</p>
+    </md-list-item>
+</md-list>

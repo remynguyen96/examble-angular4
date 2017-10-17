@@ -1,0 +1,49 @@
+<!-- <form [formGroup]='formData' (submit)='submitForm()'>
+  <div class="mat-elevation-z9" fxFlexOffset="20" fxFlex='60' fxFlexAlign='center' fxLayout='row' fxLayoutWrap fxLayoutAlign='space-around' fxLayoutGap="20px">
+
+    <md-input-container fxFlex='60'>
+      <input type="text" mdInput placeholder="Fullname" formControlName='name'>
+    </md-input-container>
+
+    <md-input-container fxFlex='60'>
+      <input type="email" mdInput placeholder="Email" formControlName='email'>
+    </md-input-container>
+
+    <p>{{formData.get('email').errors | json}}</p>
+
+  <div *ngIf="formData.get('email').status === 'PENDING'">
+    Checking...
+  </div>
+    <div *ngIf="formData.get('email').status === 'VALID'">
+      😺 Email is available!
+    </div>
+
+    <md-input-container fxFlex='60'>
+      <input type="text" mdInput placeholder="Business Category" formControlName='category'>
+    </md-input-container>
+
+
+    <md-input-container fxFlex="60" fxFlexAlign='center'>
+      <textarea mdInput placeholder="Description" formControlName='description'>
+        </textarea>
+    </md-input-container>
+
+    <div fxFlex="60" fxFlexOffset="20">
+      <button type="submit" md-raised-button color='accent' >Submit</button>
+    </div>
+  </div>
+</form> -->
+
+<div class="controls">
+  <h3 style="--base: #ff415a">Hello variable and vannila JS</h3>
+  <label for="">spacing</label>
+  <input name='spacing' type="range" min="10" max="200" value="10" data-sizing="px">
+
+  <label for="">blur</label>
+  <input name='blur' type="range" min="0" max="25" value="10" data-sizing="px">
+
+  <label for="">base</label>
+  <input name='base' type="color" value='#4f1bff'>
+</div>
+
+<img src="assets/yoga-2176668_1280.jpg" alt="yoga">

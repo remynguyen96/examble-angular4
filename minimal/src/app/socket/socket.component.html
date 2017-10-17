@@ -1,0 +1,28 @@
+<md-toolbar color="primary" fxLayout="row" fxLayoutAlign="space-around start">
+  <span>Chat Room With Socket IO And Angular 2 RXJS</span>
+</md-toolbar>
+<div fxLayout="row" fxLayoutAlign="space-around start">
+  <md-card fxFlex="40" fxLayout="row" fxLayoutAlign="center" fxLayoutWrap="wrap">
+    <md-card-header fxFlex="1 1 100">
+      <md-card-title>Infomation To Sign Up Chat Room</md-card-title>
+    </md-card-header>
+    <md-card-content fxFlex="1 1 100">
+      <form [formGroup]="formData" (ngSubmit)="onSubmit()" fxLayoutWrap="wrap" fxLayout="row" fxLayoutAlign="center">
+        <md-input-container fxFlex="1 1 65">
+          <input type="text" mdInput placeholder="Your Name" formControlName="name">
+        </md-input-container>
+        <md-input-container fxFlex="1 1 65">
+          <input type="number" mdInput placeholder="Your Age" formControlName="age">
+        </md-input-container>
+
+        <md-card-actions fxFlex="1 1 100" fxLayoutAlign="center">
+          <button type="submit" [disabled]="!formData.valid" md-raised-button color="accent">Sign Up</button>
+        </md-card-actions>
+      </form>
+    </md-card-content>
+
+  </md-card>
+</div>
+
+
+<router-outlet></router-outlet>

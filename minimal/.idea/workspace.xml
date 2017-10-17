@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="614477d6-fb69-440c-b82a-778cdc1621a9" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.server.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/app.server.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-routing-loader.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/app-routing-loader.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>line</find>
+      <find>words</find>
+      <find>testLine</find>
+      <find>position</find>
+      <find>caption</find>
+      <find>dataForm</find>
+      <find>positionHanding</find>
+      <find>wraptest</find>
+      <find>color</find>
+      <find>console.log</find>
+      <find>e</find>
+      <find>changeSizeText</find>
+      <find>canvasWraptest</find>
+      <find>fontWeight</find>
+      <find>style</find>
+      <find>stagger</find>
+      <find>optional</find>
+      <find>routeAnimation</find>
+      <find>activatedRouteData</find>
+      <find>changeFontWeightText</find>
+      <find>meme</find>
+      <find>wrap</find>
+      <find>image-canvas</find>
+      <find>myContext</find>
+      <find>greet</find>
+      <find>eng</find>
+      <find>localSk</find>
+      <find>$implicit</find>
+      <find>value1</find>
+      <find>valueChanges</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>assets</replace>
+      <replace>md-input-container</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/image-canvas/image-canvas.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/image-canvas/image-canvas.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/image-canvas/modal/modal.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part11/part11.component.html" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part11/part11.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/image-canvas/modal/modal.component.html" />
+        <option value="$PROJECT_DIR$/src/app/image-canvas/image-canvas.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/ngrx/ngrx.component.html" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part15/part15.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/image-canvas/modal/modal.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part15/part15.component.html" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part15/part15.component.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part16/part16.component.html" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part16/part16.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/carousel/carousel-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/carousel/carousel.directive.ts" />
+        <option value="$PROJECT_DIR$/src/app/carousel/carousel.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/carousel/carousel.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/carousel/carousel-component/carousel-component.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/carousel/carousel-component/carousel-component.component.html" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/carousel/carousel.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/carousel/carousel.component.html" />
+        <option value="$PROJECT_DIR$/src/app/carousel/carousel-component/carousel-component.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part17/part17.component.html" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part17/part17.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part17/part17.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/canvas/part2/part2.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/drapdrop/text/text.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/drapdrop/text/text.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/drapdrop/dialog/dialog.component.html" />
+        <option value="$PROJECT_DIR$/src/app/drapdrop/dialog/dialog.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/drapdrop/part2/part2.component.scss" />
+        <option value="$PROJECT_DIR$/src/app/app-routing-loader.ts" />
+        <option value="$PROJECT_DIR$/src/app/drapdrop/part2/part2.component.html" />
+        <option value="$PROJECT_DIR$/src/styles.scss" />
+        <option value="$PROJECT_DIR$/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/canvas/canvas.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.server.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/drapdrop/part2/part2.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/image-canvas/image-canvas.component.html" />
+        <option value="$PROJECT_DIR$/src/app/directive/directive-routing.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/directive/directive.component.html" />
+        <option value="$PROJECT_DIR$/src/app/directive/demo2.directive.ts" />
+        <option value="$PROJECT_DIR$/src/app/directive/demo2/demo2.component.html" />
+        <option value="$PROJECT_DIR$/src/app/directive/demo2/demo2.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/directive/template-outlet/template-outlet.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/directive/template-outlet/template-outlet.component.html" />
+        <option value="$PROJECT_DIR$/src/app/guard/authguard.guard.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-4" />
+    <option name="width" value="1366" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="minimal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minimal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="minimal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minimal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="minimal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minimal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v8.2.1/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ang4" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/ngrx-nutri/models" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/../demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="614477d6-fb69-440c-b82a-778cdc1621a9" name="Default" comment="" />
+      <created>1502574528299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502574528299</updated>
+      <workItem from="1502574529499" duration="130000" />
+      <workItem from="1502665607381" duration="760000" />
+      <workItem from="1502678751226" duration="144000" />
+      <workItem from="1502705977722" duration="63000" />
+      <workItem from="1502720040502" duration="1770000" />
+      <workItem from="1502744481963" duration="6967000" />
+      <workItem from="1502755317487" duration="2588000" />
+      <workItem from="1502765038045" duration="88000" />
+      <workItem from="1502789538513" duration="1483000" />
+      <workItem from="1502792205817" duration="2007000" />
+      <workItem from="1502807323493" duration="7105000" />
+      <workItem from="1502837772928" duration="678000" />
+      <workItem from="1502866111165" duration="8292000" />
+      <workItem from="1502876135114" duration="1570000" />
+      <workItem from="1502884610066" duration="1946000" />
+      <workItem from="1502892027009" duration="8353000" />
+      <workItem from="1502928996645" duration="2013000" />
+      <workItem from="1502938707643" duration="1999000" />
+      <workItem from="1502951212987" duration="1936000" />
+      <workItem from="1502963549912" duration="1439000" />
+      <workItem from="1502979168110" duration="8112000" />
+      <workItem from="1503010285902" duration="1418000" />
+      <workItem from="1503011745556" duration="354000" />
+      <workItem from="1503024186104" duration="28000" />
+      <workItem from="1503025415606" duration="1384000" />
+      <workItem from="1503044016734" duration="3200000" />
+      <workItem from="1503088915129" duration="7697000" />
+      <workItem from="1503237500489" duration="8424000" />
+      <workItem from="1503260815805" duration="10110000" />
+      <workItem from="1503283136249" duration="337000" />
+      <workItem from="1503583142888" duration="67000" />
+      <workItem from="1503671622458" duration="4081000" />
+      <workItem from="1503702348044" duration="3071000" />
+      <workItem from="1503708903839" duration="1972000" />
+      <workItem from="1503740348322" duration="44000" />
+      <workItem from="1503740461498" duration="4487000" />
+      <workItem from="1503745033013" duration="6783000" />
+      <workItem from="1503756181191" duration="5539000" />
+      <workItem from="1503788231038" duration="1296000" />
+      <workItem from="1503799139191" duration="12723000" />
+      <workItem from="1503834601823" duration="11994000" />
+      <workItem from="1503886192742" duration="108000" />
+      <workItem from="1503896837617" duration="1628000" />
+      <workItem from="1504079647961" duration="1472000" />
+      <workItem from="1504085570618" duration="3728000" />
+      <workItem from="1504123899891" duration="9354000" />
+      <workItem from="1504146583559" duration="9597000" />
+      <workItem from="1504175071190" duration="600000" />
+      <workItem from="1504188027041" duration="2549000" />
+      <workItem from="1504220270677" duration="3738000" />
+      <workItem from="1504229247609" duration="6624000" />
+      <workItem from="1504248741784" duration="410000" />
+      <workItem from="1504249616956" duration="904000" />
+      <workItem from="1504296911261" duration="7144000" />
+      <workItem from="1504314293060" duration="21201000" />
+      <workItem from="1504362312518" duration="6701000" />
+      <workItem from="1504390811388" duration="2306000" />
+      <workItem from="1504401412738" duration="19905000" />
+      <workItem from="1504480505347" duration="5296000" />
+      <workItem from="1504491159761" duration="41000" />
+      <workItem from="1504491274649" duration="50000" />
+      <workItem from="1504505833162" duration="579000" />
+      <workItem from="1504506461838" duration="809000" />
+      <workItem from="1504521376406" duration="888000" />
+      <workItem from="1504527265854" duration="2525000" />
+      <workItem from="1504550845763" duration="3379000" />
+      <workItem from="1504569927795" duration="2621000" />
+      <workItem from="1504577938056" duration="17134000" />
+      <workItem from="1504674577130" duration="2800000" />
+      <workItem from="1504793586103" duration="1915000" />
+      <workItem from="1504827237063" duration="1580000" />
+      <workItem from="1504837665274" duration="30000" />
+      <workItem from="1504911519057" duration="2233000" />
+      <workItem from="1504917708225" duration="26625000" />
+      <workItem from="1504965697432" duration="4526000" />
+      <workItem from="1505032705274" duration="2795000" />
+      <workItem from="1505052962160" duration="1500000" />
+      <workItem from="1505096145424" duration="311000" />
+      <workItem from="1505108880365" duration="2297000" />
+      <workItem from="1505139431890" duration="2004000" />
+      <workItem from="1505173096782" duration="2349000" />
+      <workItem from="1505176798619" duration="184000" />
+      <workItem from="1505182294851" duration="732000" />
+      <workItem from="1505188986525" duration="629000" />
+      <workItem from="1505192695675" duration="2095000" />
+      <workItem from="1505229652029" duration="3672000" />
+      <workItem from="1505257795058" duration="3308000" />
+      <workItem from="1505268554128" duration="1563000" />
+      <workItem from="1505271184007" duration="5323000" />
+      <workItem from="1505281170859" duration="2880000" />
+      <workItem from="1505291287168" duration="5590000" />
+      <workItem from="1505316713599" duration="6203000" />
+      <workItem from="1505344578769" duration="5138000" />
+      <workItem from="1505358602959" duration="931000" />
+      <workItem from="1505397755826" duration="6424000" />
+      <workItem from="1505432616864" duration="3898000" />
+      <workItem from="1505442241432" duration="745000" />
+      <workItem from="1505443605476" duration="745000" />
+      <workItem from="1505460161551" duration="7000" />
+      <workItem from="1505513569341" duration="2067000" />
+      <workItem from="1505519676024" duration="2887000" />
+      <workItem from="1505540693144" duration="2941000" />
+      <workItem from="1505613772983" duration="926000" />
+      <workItem from="1505779108327" duration="2074000" />
+      <workItem from="1505788286379" duration="23000" />
+      <workItem from="1505797799064" duration="1610000" />
+      <workItem from="1505824306298" duration="7747000" />
+      <workItem from="1505873861115" duration="476000" />
+      <workItem from="1505949450454" duration="2702000" />
+      <workItem from="1505960525979" duration="495000" />
+      <workItem from="1505970744441" duration="1234000" />
+      <workItem from="1506037164911" duration="1867000" />
+      <workItem from="1506047210840" duration="549000" />
+      <workItem from="1506091389628" duration="341000" />
+      <workItem from="1506096874916" duration="217000" />
+      <workItem from="1506116530318" duration="9014000" />
+      <workItem from="1506130406737" duration="1669000" />
+      <workItem from="1506174383338" duration="8439000" />
+      <workItem from="1506209764206" duration="15737000" />
+      <workItem from="1506234003865" duration="594000" />
+      <workItem from="1506237100665" duration="86000" />
+      <workItem from="1506237296626" duration="56000" />
+      <workItem from="1506238248463" duration="874000" />
+      <workItem from="1506242211614" duration="1329000" />
+      <workItem from="1506243597418" duration="1079000" />
+      <workItem from="1506244950395" duration="1990000" />
+      <workItem from="1506252418829" duration="2874000" />
+      <workItem from="1506261567557" duration="408000" />
+      <workItem from="1506263388589" duration="296000" />
+      <workItem from="1506268324334" duration="480000" />
+      <workItem from="1506295308889" duration="809000" />
+      <workItem from="1506496394792" duration="1904000" />
+      <workItem from="1506831504342" duration="585000" />
+      <workItem from="1506834199111" duration="4587000" />
+      <workItem from="1506897230144" duration="599000" />
+      <workItem from="1506911649748" duration="1466000" />
+      <workItem from="1506979437622" duration="91000" />
+      <workItem from="1507010336563" duration="2233000" />
+      <workItem from="1507017802427" duration="220000" />
+      <workItem from="1507093947764" duration="584000" />
+      <workItem from="1507908510196" duration="92000" />
+      <workItem from="1507946175741" duration="286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="463312000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20864381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2157738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/salfeHTML.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/debounce/debounce-click.directive.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/debounce/debounce-click/debounce-click.component.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/app.module.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/app.server.module.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/app.routing.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/app.component.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/app.routing-loader.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/part1-derective/part1-derective.routing.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/part1-derective/part1-derective.component.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/part1-derective/part1-derective.module.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/part1-derective/modal/modal.component.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/part1-derective/shared/create-element.directive.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/part1-derective/shared/part1.directive.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/part1-derective/shared/selectors.directive.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/part1-derective/shared/part1.service.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/part1-derective/shared/tooltip.directive.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/reactive-form/reactive-form.module.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/ngrx/shared/freelancer.service.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/ngrx/store/freelancers.reducer.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/dynamic/shared/role.directive.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/dynamic/shared/dynamic.service.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/dynamic/models/type.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/dynamic/view1/view1.component.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/dynamic/view2/view2.component.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/dynamic/models/dynamic.directive.js" />
+        <option value="$PROJECT_DIR$/../test-angular4/src/app/dynamic/load-view/load-view.component.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/drapdrop/dialog/dialog.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="true" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/drapdrop/dialog/dialog.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/drapdrop/part2/part2.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/drapdrop/dialog/dialog.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/canvas/part3/part3.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/canvas/canvas.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/router/src/directives/router_outlet.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/canvas/part15/part15.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/canvas/part14/part14.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/canvas/part5/part5.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="44" column="42" lean-forward="true" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/canvas/part6/part6.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1397">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/canvas/part16/part16.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ngrx/store/actions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ngrx/store/core.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ngrx/store/effects.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="436" column="10" lean-forward="false" selection-start-line="436" selection-start-column="10" selection-end-line="436" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ngrx/search-result/search-result.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/drapdrop/part2/part2.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/drapdrop/part2/part2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/image-canvas/image-canvas.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/canvas/part4/part4.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/canvas/part4/part4.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/canvas/part4/part4.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/directive/directive.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/directive/directive-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/directive/directive.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/directive/template-outlet/template-outlet.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/directive/demo2/demo2.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/directive/demo2/demo2.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/directive/template-outlet/template-outlet.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/directive/template-outlet/template-outlet.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/directive/directive.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/guard/auth.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/directive/demo2.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/image-canvas/modal/modal.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/material/bundles/material-autocomplete.umd.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/ngrx/search-input/search-input.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/ngrx/search-input/search-input.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="78" column="11" lean-forward="true" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app-routing-loader.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.server.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

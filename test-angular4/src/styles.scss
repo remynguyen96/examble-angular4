@@ -1,0 +1,52 @@
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+.hnn-tooltip {
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Roboto';
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1000;
+  opacity: 0;
+  transform: scale(.6);
+  transition: all 200ms ease-in-out;
+}
+.hnn-tooltip-show {
+  opacity: 1;
+  transform: scale(1);
+}
+.hnn-tooltip::after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+}
+.hnn-tooltip-top::after, .hnn-tooltip-bottom::after {
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+}
+.hnn-tooltip-top::after {
+  top: 100%;
+  border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+}
+.hnn-tooltip-bottom::after {
+  bottom: 100%;
+  border-color: transparent transparent rgba(0, 0, 0, 0.8) transparent;
+}
+.hnn-tooltip-left::after,  .hnn-tooltip-right::after {
+  top: 50%;
+  margin-top: -5px;
+  border-width: 5px;
+}
+.hnn-tooltip-left::after {
+  left: 100%;
+  border-color: transparent transparent transparent rgba(0, 0, 0, 0.8);
+}
+.hnn-tooltip-right::after {
+  right: 100%;
+  border-color: transparent rgba(0, 0, 0, 0.8)transparent transparent;
+}
+

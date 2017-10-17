@@ -1,0 +1,32 @@
+tooltip;
+content = "any text here" > good;
+Bob < /span>
+    < app - message[type];
+"messageTypes.Success" >
+    Error;
+Hello;
+World
+    < /app-message>
+    < app - message[type];
+"messageTypes.Error" >
+    Error;
+Hello;
+World
+    < /app-message>
+    < app - message[type];
+"messageTypes.Warning" >
+    Error;
+Hello;
+World
+    < /app-message>
+    < app - message[type];
+"messageTypes.Default" >
+    Error;
+Hello;
+World
+    < /app-message>
+    < span;
+tooltip;
+content = "You can have any html or plain text content here" > good;
+Bob;
+1 < /span>;

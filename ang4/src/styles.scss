@@ -1,0 +1,30 @@
+// @import '~@angular/material/prebuilt-themes/purple-green.css';
+@import '~@angular/material/theming';
+@include mat-core();
+$light-primary: mat-palette($mat-indigo, 500, 900, A400);
+$light-accent:  mat-palette($mat-green, A200, A400);
+$light-warn:    mat-palette($mat-red, 500, 800, A200);
+
+$light-theme: mat-light-theme($light-primary, $light-accent, $light-warn);
+
+@include angular-material-theme($light-theme);
+
+
+// Define an alternate dark theme.
+$dark-primary: mat-palette($mat-blue-grey);
+$dark-accent:  mat-palette($mat-amber, A200, A100, A400);
+$dark-warn:    mat-palette($mat-deep-orange);
+
+$dark-theme:   mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
+
+.unicorn-dark-theme {
+  @include angular-material-theme($dark-theme);
+}
+
+
+.helo {
+  color: #474747;
+}
+.style {
+  background-clip: border-box;
+}

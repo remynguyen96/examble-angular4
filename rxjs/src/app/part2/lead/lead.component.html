@@ -1,0 +1,17 @@
+<md-card>
+  <md-card-content fxLayout="column">
+    <md-input-container fxFlex="60">
+      <input type="text" autocomplete="false" mdInput placeholder="Business Name" [(ngModel)]="lead.businessName">
+    </md-input-container>
+    <md-input-container fxFlex="60">
+      <input type="text" autocomplete="false" mdInput placeholder="Business Category" [(ngModel)]="lead.businessCategory">
+    </md-input-container>
+    <md-input-container fxFlex="60">
+      <input type="text" autocomplete="false" mdInput placeholder="Contact Name" [(ngModel)]="lead.contactName">
+    </md-input-container>
+    <md-input-container fxFlex="60">
+      <input type="text" autocomplete="false" mdInput placeholder="Email" [(ngModel)]="lead.email">
+    </md-input-container>
+    <button md-raised-button (click)="addLead()" color="accent">Add Lead</button>
+  </md-card-content>
+</md-card>

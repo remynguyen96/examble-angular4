@@ -1,0 +1,19 @@
+<md-toolbar color="primary">
+    <span>Search Username</span>
+    <md-toolbar-row>
+        <form [formGroup]="form" fxLayout="row" fxFlex="40" fxFlexOffset="30">
+            <md-input-container fxFlex="100" color="accent">
+                <input mdInput placeholder="Username" formControlName="username">
+            </md-input-container>
+        </form>
+        <span fxFlex></span>
+        <md-icon>favorite</md-icon>
+    </md-toolbar-row>
+</md-toolbar>
+
+<div fxLayout="row" fxLayoutWrap="wrap" fxLayoutGap="15px">
+    <div *ngFor="let item of users" fxFlex>
+        <h4>{{item.login}}</h4>
+        <img src="{{item.avatar_url}}" alt="" style="width: 120px;height: 120px">
+    </div>
+</div>

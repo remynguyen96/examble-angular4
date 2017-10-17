@@ -1,0 +1,21 @@
+.wrapper_image {
+  width: 560px;
+  height: 460px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.img {
+  width: 200px;
+  height: 200px;
+  transition: all .4s;
+  object-fit: cover;
+  opacity: 1;
+}
+.img.active {
+  box-shadow: 0 0 0 2px black;
+  opacity: .7;
+  transform: scale(.95);
+}

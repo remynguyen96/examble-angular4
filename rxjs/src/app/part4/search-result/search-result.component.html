@@ -1,0 +1,13 @@
+<div fxLayout="column" fxLayoutAlign="center">
+  <div class="subheader">
+    <span style="font-weight:500">Results</span>
+  </div>
+  <md-progress-bar *ngIf="loading | async" mode="indeterminate"></md-progress-bar>
+  <div class="search-results">
+    <md-list style="background: #8100FF;">
+      <md-list-item class="search-result-item" *ngFor="let result of results | async" [routerLink]="['/search', result.id]">
+        <span class="search-result-item-name">{{result.name}}</span>
+      </md-list-item>
+    </md-list>
+  </div>
+</div>

@@ -1,0 +1,84 @@
+:host{
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  background: url('http://unsplash.it/1920/650') center center no-repeat;
+  background-size: cover;
+}
+.formData{
+  padding: 10px 30px;
+  position: absolute;
+  z-index: 999;
+  width: 500px;
+  top: 40%;
+  left: 35%;
+  background: rgba(247, 247, 247, .3);
+  box-shadow: 3px 2px 5px rgba(171, 171, 171, 0.3);
+  h3{
+    font-weight: 700;
+    color: #00fd7e;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 4px 1px 5px rgba(31, 31, 31, 0.3);
+  }
+}
+.plates{
+  padding: 0px;
+  li{
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    list-style-type: none;
+  }
+}
+.add-items{
+  input[type="text"] {
+    width: 76%;
+    font-size: 14px;
+    padding: 3px;
+    padding-left: 15px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+  }
+  input[type='submit'] {
+    padding: 3px 10px;
+    background: #2abd6d;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    width: 23%;
+  }
+}
+.plates input + label:before {
+  content: 'linear_scale';
+  font-family: 'Material Icons';
+  margin-right: 10px;
+}
+.plates input:checked + label:before {
+  content: 'done';
+  font-family: "Material Icons";
+  margin-right: 10px;
+}
+
+//////////////////////////////////////////////
+#hero{
+  h1{
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 10px 10px 0 rgba(0,0,0,1);
+  }
+}
+//////////////////////////////////////////////
+.sortName{
+  width: 350px;
+  margin: 0 auto;
+  box-shadow: 4px 6px 11px 0px rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  h4{
+    text-align: center;
+  }
+  li{
+    text-transform: capitalize;
+    color: #a8a8a8;
+  }
+}
